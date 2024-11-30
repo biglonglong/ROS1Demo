@@ -1,0 +1,2 @@
+set(action_MESSAGE_FILES "/home/biglonglong/demo/devel/share/action/msg/addintsAction.msg;/home/biglonglong/demo/devel/share/action/msg/addintsActionGoal.msg;/home/biglonglong/demo/devel/share/action/msg/addintsActionResult.msg;/home/biglonglong/demo/devel/share/action/msg/addintsActionFeedback.msg;/home/biglonglong/demo/devel/share/action/msg/addintsGoal.msg;/home/biglonglong/demo/devel/share/action/msg/addintsResult.msg;/home/biglonglong/demo/devel/share/action/msg/addintsFeedback.msg")
+set(action_SERVICE_FILES "")

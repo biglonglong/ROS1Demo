@@ -1,0 +1,10 @@
+<launch>
+    <include file="$(find nav)/launch/mapserver.launch" />
+    <include file="$(find nav)/launch/amcl.launch" />
+    <include file="$(find nav)/launch/path.launch" />
+    
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" />
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find nav)/config/rvizconfig.rviz" />
+    
+</launch>

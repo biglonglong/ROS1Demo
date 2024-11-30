@@ -1,0 +1,8 @@
+prefix=/home/biglonglong/demo/install
+
+Name: plugin
+Description: Description of plugin
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

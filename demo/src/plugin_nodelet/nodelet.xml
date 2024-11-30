@@ -1,0 +1,5 @@
+<library path="lib/libnodelet">
+    <class name="plugin_nodelet/nodelet" type="plugin_nodelet_ns::pluginNodelet" base_class_type="nodelet::Nodelet" >
+        <description>nodelet plugin</description>
+    </class>
+</library>

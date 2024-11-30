@@ -1,0 +1,8 @@
+prefix=/home/biglonglong/demo/devel
+
+Name: paramserver
+Description: Description of paramserver
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

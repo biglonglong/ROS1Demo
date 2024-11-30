@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tf2_ros" type="static_transform_publisher" name="systemOne" args="5 0 0 0 0 0 /wolrd /systemOne" output="screen" />
+    <node pkg="tf2_ros" type="static_transform_publisher" name="systemTwo" args="0 5 0 0 0 0 /wolrd /systemTwo" output="screen" />
+</launch>

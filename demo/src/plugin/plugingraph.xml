@@ -1,0 +1,8 @@
+<library path="lib/libplugingraph">
+    <class type="plugingraph_ns::plugin_triangle" base_class_type="basegraph_ns::Basegraph">
+        <description>plugin:get C of triangle</description>
+    </class>
+    <class type="plugingraph_ns::plugin_square" base_class_type="basegraph_ns::Basegraph">
+        <description>plugin:get C of square</description>
+    </class>
+</library>

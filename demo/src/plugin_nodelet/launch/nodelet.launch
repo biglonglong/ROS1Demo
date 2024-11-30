@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="Manager" args="manager" output="screen" />
+    <node pkg="nodelet" type="nodelet" name="node1" args="load plugin_nodelet/nodelet Manager" output="screen" >
+        <param name="value" value="100" />
+    </node>
+    <node pkg="nodelet" type="nodelet" name="node2" args="load plugin_nodelet/nodelet Manager" output="screen" >
+        <param name="value" value="-50" />
+        <remap from="/node2/in" to="/node1/out" />
+    </node>
+
+</launch>
