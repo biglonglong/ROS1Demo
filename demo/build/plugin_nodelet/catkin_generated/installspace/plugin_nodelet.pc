@@ -1,8 +1,0 @@
-prefix=/home/biglonglong/demo/install
-
-Name: plugin_nodelet
-Description: Description of plugin_nodelet
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

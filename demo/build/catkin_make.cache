@@ -1,2 +1,0 @@
-action:bag:dynamicparam:helloworld:nav:paramserver:plugin:plugin_nodelet:pubAsub:serverAclient:simulation:study:transform
--DCATKIN_DEVEL_PREFIX=/home/biglonglong/demo/devel -DCMAKE_INSTALL_PREFIX=/home/biglonglong/demo/install -G Unix Makefiles
