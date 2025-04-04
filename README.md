@@ -5,7 +5,6 @@
 - [Overview](#overview)
 - [Directory Structure](#directory-structure)
 - [Guide](#guide)
-  - [Tools](#tools)
   - [More](#more)
 - [References](#references)
 
